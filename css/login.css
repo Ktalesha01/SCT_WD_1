@@ -1,0 +1,49 @@
+section{
+    background-image: url("../pictures/bg.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: larger;
+    padding: 5% 25%;
+    height: 70vh;
+}
+form{
+    border: 10px solid aqua;
+    border-radius: 0 5rem 5rem 5rem;
+    padding: 4rem;
+    box-shadow: 3px 3px 6px;
+    backdrop-filter: blur(30px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+div{
+    padding: 1rem;
+}
+input{
+    font-size: x-large;
+}
+input[type="submit"]{
+    font-weight: bolder;
+    cursor: pointer;
+    background-color: white;
+    font-size: x-large;
+    border: .2rem solid aqua;
+    border-radius: 1rem;
+    color: aqua;
+    padding: .6rem 1rem;
+    transition: color,border 1s ease;
+}
+input[type="submit"]:hover{
+    color: rgb(0, 162, 255);
+    border: .2rem solid rgb(0, 162, 255);
+}
+input[type="text"],
+input[type="password"] {
+    padding: .8rem;
+    font-size: x-large;
+    outline: none ;
+    border-bottom: 3px solid aqua;
+    border-radius: 1rem;
+}

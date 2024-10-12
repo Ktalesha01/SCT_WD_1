@@ -1,0 +1,28 @@
+section{
+    margin: 1rem 3rem;
+    text-align: center;
+    font-size: larger;
+}
+fieldset{
+    border: 5px solid blue;
+    color: blue;
+    background-color: aqua;
+    padding: 1rem 0;
+    margin: 2rem 3rem;
+    border-radius: 1rem 4rem;
+}
+legend{
+    font-size: x-large;
+    font-weight: 500;
+    border: 5px solid aqua;
+    padding: 1.5rem;
+    border-radius: 2rem;
+    background-color: blue;
+    color: white;
+}
+#intro{
+    padding: 1rem;
+    border-radius: 3rem;
+    background-color: aqua;
+    color: blue;
+}
